@@ -1,0 +1,89 @@
+/* .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    height: 30rem;
+    width: 30rem;
+    background-color: rgb(60, 68, 26);
+}
+h1{
+    font-size: 5rem;
+    color: aliceblue;
+} */
+
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.achievement-section {
+  padding: 4rem 2rem;
+  background-color: #0d1117;
+  color: #e6edf3;
+  text-align: center;
+}
+
+.achievement-section h1 {
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+  color: #58a6ff;
+}
+
+.achievement-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.achievement-card {
+  background-color: #161b22;
+  width: 300px;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(88, 166, 255, 0.3);
+}
+
+.achievement-card h2 {
+  font-size: 1.3rem;
+  color: #c9d1d9;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-card .year {
+  font-size: 0.85rem;
+  color: #58a6ff;
+  margin-bottom: 0.8rem;
+}
+
+.achievement-card p {
+  font-size: 0.95rem;
+  color: #d0d7de;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .achievement-card {
+    width: 90%;
+  }
+
+  .achievement-section h1 {
+    font-size: 2rem;
+  }
+}

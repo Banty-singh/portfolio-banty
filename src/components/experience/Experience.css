@@ -1,0 +1,90 @@
+/* .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    height: 30rem;
+    width: 30rem;
+    background-color: rgb(60, 68, 26);
+}
+h1{
+    font-size: 5rem;
+    color: aliceblue;
+} */
+
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.experience-section {
+  padding: 4rem 2rem;
+  background-color: #0d1117;
+  color: #e6edf3;
+  text-align: center;
+}
+
+.experience-section h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #58a6ff;
+}
+
+.experience-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.experience-card {
+  background-color: #161b22;
+  width: 300px;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(88, 166, 255, 0.3);
+}
+
+.experience-card h2 {
+  font-size: 1.4rem;
+  color: #c9d1d9;
+  margin-bottom: 0.5rem;
+}
+
+.experience-card h3 {
+  font-size: 1.1rem;
+  color: #8b949e;
+  margin-bottom: 0.3rem;
+}
+
+.experience-card .duration {
+  font-size: 0.9rem;
+  color: #58a6ff;
+  margin-bottom: 0.8rem;
+}
+
+.experience-card p {
+  font-size: 0.95rem;
+  color: #d0d7de;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-card {
+    width: 90%;
+  }
+}
