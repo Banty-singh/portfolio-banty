@@ -30,7 +30,7 @@ const projects = [
     title: 'Portfolio Website',
     description: 'A fully responsive portfolio built using React and styled with custom CSS. Showcases my skills, education, and experience.',
     tech: ['React', 'CSS'],
-    link: 'https://yourportfolio.com'
+    link: 'https://portfolio-banty.netlify.app/'
   },
   {
     title: 'ToDo App',
