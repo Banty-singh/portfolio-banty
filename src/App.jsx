@@ -7,7 +7,7 @@ import Experience from './components/experience/Experience'
 import Projects from './components/projects/Projects'
 import Achievement from './components/Achievments/Achievement'
 import Contact from './components/contact/Contact'
-import Footer from './components/footer/footer'
+import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
