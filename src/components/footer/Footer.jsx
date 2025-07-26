@@ -1,27 +1,3 @@
-// import React from 'react'
-// import './Footer.css'
-
-// const footer = () => {
-//     return (
-//         <>
-//             <div className="elements">
-//                 <h2>Made with ❤️ by Banty Singh</h2>
-//                 <h3>Thanqu for connecting me</h3>
-
-//             </div>
-
-//         </>
-
-//     )
-// }
-
-// export default footer
-
-
-
-
-
-
 import React from 'react';
 import './Footer.css';
 

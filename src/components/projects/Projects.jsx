@@ -1,27 +1,3 @@
-// import React from 'react'
-// import './Projects.css'
-
-// const Projects = () => {
-//     return (
-//         <>
-//         <h1>Projects</h1>
-//   <div className="boxes">
-//                 <div className="box"></div>
-//                 <div className="box"></div>
-//                 <div className="box"></div>
-                
-//             </div>
-//         </>
-
-//     )
-// }
-
-// export default Projects
-
-
-
-
-
 import React from 'react';
 import './Projects.css';
 

@@ -1,17 +1,3 @@
- /* .elements{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-}  */
-
-
-
-
-
-
-
 .footer {
     background-color: #0d1117;
     padding: 2rem 1rem;
@@ -38,7 +24,7 @@
     color: #cccccc;
 }
 
-/* Responsive for small screens */
+
 @media (max-width: 600px) {
     .footer h2 {
         font-size: 1.2rem;

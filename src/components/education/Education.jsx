@@ -1,47 +1,3 @@
-// import React from 'react'
-// import './Education.css'
-// import python from '../../assets/python.png'
-
-
-// const Education = () => {
-//     return (
-//         <>
-//             <div className="education">
-//                 <h1>Education</h1>
-//                 <div className="place">
-//                     <img src={python} alt="" />
-//                     <div className="detail">
-//                         <h2>Harvard University</h2>
-//                         <h3>Master of Science in Computer Science</h3>
-//                         <h3>September 2017 - April 2019</h3>
-//                         <h4>Participated in the research of XXX and published 3 papers.</h4>
-//                     </div>
-
-
-//                 </div>
-//                 <div className="place">
-//                     <img src={python} alt="" />
-//                     <div className="detail">
-//                         <h2>Harvard University</h2>
-//                         <h3>Master of Science in Computer Science</h3>
-//                         <h3>September 2017 - April 2019</h3>
-//                         <h4>Participated in the research of XXX and published 3 papers.</h4>
-//                     </div>
-
-
-//                 </div>
-//             </div>
-//         </>
-
-//     )
-// }
-
-// export default Education
-
-
-
-
-
 import React from 'react';
 import './Education.css';
 import gnit from '../../assets/GNIT.png';
@@ -55,7 +11,7 @@ const Education = () => {
         <section className="education-section">
           <h1>Education</h1>
 
-          {/* School Section */}
+         
           <div className="edu-block">
             <h2 className="edu-title">School</h2>
             <div className="edu-entry">
@@ -70,7 +26,7 @@ const Education = () => {
             </div>
           </div>
 
-          {/* College Section */}
+          
           <div className="edu-block">
             <h2 className="edu-title">College</h2>
             <div className="edu-entry">
