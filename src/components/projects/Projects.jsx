@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: 'Tic Tac Toe – Web Game',
-    description: 'Tic Tac Toe is a simple web-based game created using HTML, CSS, and JavaScript. It allows two players to play the classic 3x3 grid game in turns (Player X and Player O) directly in the browser. The game checks for winning conditions or draw, displays results, and allows resetting the board.',
+    description: 'Tic Tac Toe is a simple web-based game created using HTML, CSS, and JavaScript.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     link: 'apptic-tac-toe.netlify.app'
   }
