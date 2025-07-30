@@ -26,9 +26,15 @@ const Hero = () => {
             <a href=""><img src={insta} alt="Instagram" /></a>
           </div>
           <div className="hero-buttons">
-            <button className='hero-btn'>Contact Me</button>
-            <button className='hero-btn'>Resume</button>
+            <a href="#contact">
+              <button className='hero-btn'>Contact Me</button>
+            </a>
+            <a href="/banty_singh_resume.pdf" target="_blank" rel="noopener noreferrer">
+              <button className='hero-btn'>Resume</button>
+            </a>
+
           </div>
+
         </div>
 
         <div className="hero-image">
