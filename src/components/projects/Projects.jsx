@@ -19,6 +19,12 @@ const projects = [
     description: 'Displays real-time weather using OpenWeather API with dynamic backgrounds based on weather conditions.',
     tech: ['HTML', 'CSS', 'API'],
     link: 'https://weather-app-delta-silk-67.vercel.app'
+  },
+  {
+    title: 'Tic Tac Toe – Web Game',
+    description: 'Tic Tac Toe is a simple web-based game created using HTML, CSS, and JavaScript. It allows two players to play the classic 3x3 grid game in turns (Player X and Player O) directly in the browser. The game checks for winning conditions or draw, displays results, and allows resetting the board.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    link: 'apptic-tac-toe.netlify.app'
   }
 ];
 
