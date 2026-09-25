@@ -21,6 +21,12 @@ const projects = [
     link: 'https://abhimaan.vercel.app/'
   },
   {
+    title: 'URL Shortener & QR Code Generator',
+    description: 'A full-stack web application featuring a JavaScript frontend built with Vite and a Node.js/Express REST API. It converts long URLs into short aliases using nanoid, generates downloadable QR codes, and persists link records in MongoDB.',
+    tech: ['JavaScript', 'Vite', 'Node.js', 'Express.js', 'MongoDB'],
+    link: 'https://url-shortner-ashy-seven.vercel.app/'
+  },
+  {
     title: 'ToDo App',
     description: 'A task management app with CRUD operations, using local storage and React hooks.',
     tech: ['Html', 'CSS', 'JavaScript'],
